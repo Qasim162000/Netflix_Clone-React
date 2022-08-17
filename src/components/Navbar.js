@@ -5,12 +5,6 @@ export default function Navbar() {
     <div>
       <nav
         className="navbar"
-        // style={{
-        //   position: "absolute",
-        //   margin: 20,
-        //   width: "auto",
-        //   overflow: "hidden",
-        // }}
       >
         <a className="navbar-brand" href="#/">
           <img
