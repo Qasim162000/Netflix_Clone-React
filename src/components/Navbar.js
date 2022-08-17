@@ -14,6 +14,7 @@ export default function Navbar() {
       >
         <a className="navbar-brand" href="#/">
           <img
+            className="col-"
             src={NetflixLogo}
             alt="Netflix Clone"
             width="100%"
