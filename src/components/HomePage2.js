@@ -10,16 +10,19 @@ export default function HomePage2() {
         overflow: "auto",
       }}
     >
-      <div className="col-6" style={{ paddingTop: 140 }}>
-        <h1 className="Display-1 fw-semibold" style={{ fontSize: 52 }}>
+      <div className="col-3" style={{ paddingTop: 140 }}>
+        <h1
+          className="Display-1 fw-semibold text-start"
+          style={{ fontSize: 52 }}
+        >
           Enjoy on your TV.
         </h1>
-        <p className="lead fs-3" style={{ padding: "0 20%" }}>
+        <p className="lead fs-3 text-start">
           Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
           players, and more.
         </p>
       </div>
-      <div className="col-6" style={{ paddingTop: 140 }}>
+      <div className="col-3" style={{ paddingTop: 140 }}>
         <img src="" alt="stream" />
       </div>
     </div>
