@@ -3,7 +3,15 @@ import NetflixLogo from "./NetlfixClone.png";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar">
+      <nav
+        className="navbar"
+        // style={{
+        //   position: "absolute",
+        //   margin: 20,
+        //   width: "auto",
+        //   overflow: "hidden",
+        // }}
+      >
         <a className="navbar-brand" href="#/">
           <img
             src={NetflixLogo}
