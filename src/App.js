@@ -11,6 +11,7 @@ function App() {
       <HeroSection />
       <PageBreak />
       <HomePage2 />
+      <PageBreak />
     </div>
   );
 }

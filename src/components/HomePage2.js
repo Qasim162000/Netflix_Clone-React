@@ -1,4 +1,5 @@
 import React from "react";
+import samsungTv from "./Samsung-TV-PNG.png"
 
 export default function HomePage2() {
   return (
@@ -10,7 +11,7 @@ export default function HomePage2() {
         overflow: "auto",
       }}
     >
-      <div className="col-3" style={{ paddingTop: 140 }}>
+      <div className="col-4" style={{ paddingTop: 140 }}>
         <h1
           className="Display-1 fw-semibold text-start"
           style={{ fontSize: 52 }}
@@ -22,8 +23,8 @@ export default function HomePage2() {
           players, and more.
         </p>
       </div>
-      <div className="col-3" style={{ paddingTop: 140 }}>
-        <img src="" alt="stream" />
+      <div className="col-4" style={{ paddingTop: 140, marginLeft: 120 }}>
+        <img src={samsungTv} alt="stream" width={"100%"} />
       </div>
     </div>
   );
